@@ -5,5 +5,6 @@ private:
 	int passager;
 public:
 	Car();
-	 void initialise(int inRoues, float inPoids);
+	 void Initialise(int inRoues, float inPoids);
+	 void affiche();
 };

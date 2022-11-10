@@ -6,5 +6,6 @@ private:
 public:
 	Vehicule();
 	virtual void Initialise(int inRoues, float inPoids);
+	virtual void affiche();
 };
 

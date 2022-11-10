@@ -5,7 +5,16 @@ Car::Car()
 	passager = 70;//initialise les passager 
 }
 
-void Car::initialise(int inRoues, float inPoids)
+void Car::Initialise(int inRoues, float inPoids)
 {
+	Vehicule::Initialise(inRoues, inPoids);
 	passager = 5;
+	Vehicule::affiche();
+	std::cout << passager << std::endl;
+}
+
+
+void Car::affiche()
+{
+	std::cout << passager << std::endl;
 }
